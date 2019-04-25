@@ -4,13 +4,19 @@ ScriptsOnlyBuild:
     - ControllerTest
     - DualShock
     Unity.InputSystem.dll:
+    - UIActionInputModuleEnabler
+    - UnityEngine.Experimental.Input.Editor.InputActionEditorWindow
+    - UnityEngine.Experimental.Input.InputActionAsset
     - UnityEngine.Experimental.Input.InputSettings
     - UnityEngine.Experimental.Input.InputSystemObject
+    - UnityEngine.Experimental.Input.Plugins.PlayerInput.PlayerInput
+    - UnityEngine.Experimental.Input.Plugins.UI.UIActionInputModule
     - UnityEngine.Experimental.Input.RemoteInputPlayerConnection
     Unity.TextMeshPro.Editor.dll:
     - TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
+    - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
@@ -29,7 +35,12 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -53,19 +64,39 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9254}
+    - Class: 114
       Script: {instanceID: 9414}
     - Class: 114
       Script: {instanceID: 9420}
     - Class: 114
       Script: {instanceID: 9426}
     - Class: 114
+      Script: {instanceID: 9434}
+    - Class: 114
+      Script: {instanceID: 9442}
+    - Class: 114
       Script: {instanceID: 9456}
+    - Class: 114
+      Script: {instanceID: 9460}
+    - Class: 114
+      Script: {instanceID: 9462}
     - Class: 114
       Script: {instanceID: 9470}
     - Class: 114
+      Script: {instanceID: 9474}
+    - Class: 114
       Script: {instanceID: 9744}
     - Class: 114
+      Script: {instanceID: 9874}
+    - Class: 114
       Script: {instanceID: 9950}
+    - Class: 114
+      Script: {instanceID: 9996}
+    - Class: 114
+      Script: {instanceID: 10380}
+    - Class: 114
+      Script: {instanceID: 10418}
     - Class: 114
       Script: {instanceID: 10506}
     - Class: 114
@@ -917,7 +948,7 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 07c6e46743552011a109218e8574d691
+      Hash: 8abf573a7f3fb7b54c9a10a820df1b0a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControllerTest
