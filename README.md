@@ -1,6 +1,6 @@
 # Controller-Test
-Unity Requirement: 2019.1+
-Input System: 0.2.8
+Unity Requirement: 2019.1+</br>
+Input System: 0.2.8</br>
 My website: www.valxe.idv.tw
 
 -----
@@ -12,13 +12,13 @@ Known Issue:
 5. runInBackground doesn't work. Unity window must be focus. (because direct access??)
 
 -----
-Bugs need to be fixed & Something I want to add.
-"Buttons" on the DualShock image are not stable if you connect 2 or more controllers.(2019.04.26)
+Bugs need to be fixed & Something I want to add.</br>
+"Buttons" on the DualShock image are not stable if you connect 2 or more controllers.(2019.04.26)</br>
 Add Xbox / Switch PRO image and will switch image by current select. (ADD)
 
 -----
-2019.04.26
-Multiple Controller Support
+2019.04.26</br>
+Multiple Controller Support</br>
 
-2019.04.25
-Project Created!
+2019.04.25</br>
+Project Created!</br>
