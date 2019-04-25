@@ -13,7 +13,7 @@ My website: www.valxe.idv.tw
 5. runInBackground doesn't work. Unity window must be focus. (because direct access??)
 
 -----
-#### Bugs need to be fixed & Something I want to add.Bugs need to be fixed & Something I want to add.###### Bugs need to be fixed & Something I want to add.Bugs need to be fixed & Something I want to add.
+#### Bugs need to be fixed & Something I want to add.
 
 "Buttons" on the DualShock image are not stable if you connect 2 or more controllers.(2019.04.26)
 Add Xbox / Switch PRO image and will switch image by current select. (ADD)
