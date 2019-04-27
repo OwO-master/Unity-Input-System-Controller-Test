@@ -5,6 +5,10 @@ by Valxe</br>
 My website: www.valxe.idv.tw
 
 -----
+#### Download:
+Unity Standalone: [v0.2](https://github.com/kculwpvalxe/Unity-Input-System-0.2.8-Controller-Test/releases)
+
+-----
 #### Known Issue:Known Issue:
 1. Can't set rumble (tested on DualShock 4)
 2. If connect the controller using Bluetooth, not dongle (ie: DualShock 4 -> CUH-ZWA1G) or USB cable. Input System can't detect whether or not the controller is disconnected by power off.
