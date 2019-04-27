@@ -19,9 +19,7 @@ Unity Standalone: [v0.2](https://github.com/kculwpvalxe/Unity-Input-System-0.2.8
 -----
 #### Bugs need to be fixed & Something I want to add.
 
-"Buttons" on the DualShock image are not stable if you connect 2 or more controllers.(2019.04.26)
-
-Add Xbox / Switch PRO image and will switch image by current select. (ADD)
+Add Switch PRO image and switch image by current select. (ADD)
 
 -----
 #### Update
