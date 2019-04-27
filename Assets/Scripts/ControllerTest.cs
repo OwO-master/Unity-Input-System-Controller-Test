@@ -21,6 +21,10 @@ public class ControllerTest : MonoBehaviour
     public TMP_Dropdown Controller_Dropdown;
     List<Gamepad> Devices_List = new List<Gamepad>();
 
+    [Header("Controllers")]
+    public GameObject DualShock_Controller;
+    public GameObject XBOX_Controller;
+
     private void Awake()
     {
         Application.runInBackground = true;
@@ -81,11 +85,26 @@ public class ControllerTest : MonoBehaviour
                                                "Start: " + Gamepad.all[Controller_Dropdown.value][GamepadButton.Start].isPressed + Environment.NewLine +
                                                "Select: " + Gamepad.all[Controller_Dropdown.value][GamepadButton.Select].isPressed + Environment.NewLine;
 
-            if (Gamepad.all[Controller_Dropdown.value].device.name.Contains("DualShockGamepadHID")) { Controller_Device_Name.text = "Sony Playstation DualShock"; }
+            if (Gamepad.all[Controller_Dropdown.value].device.name.Contains("DualShockGamepadHID"))
+            {
+                Controller_Device_Name.text = "Sony Playstation DualShock";
+                DualShock_Controller.SetActive(true);
+                XBOX_Controller.SetActive(false);
+            }
             else
-            if (Gamepad.all[Controller_Dropdown.value].device.name.Contains("XInputControllerWindows")) { Controller_Device_Name.text = "Xbox(Any Controller with XInput)"; }
+            if (Gamepad.all[Controller_Dropdown.value].device.name.Contains("XInputControllerWindows"))
+            {
+                Controller_Device_Name.text = "Xbox(Any Controller with XInput)";
+                DualShock_Controller.SetActive(false);
+                XBOX_Controller.SetActive(true);
+            }
             else
-            if (Gamepad.all[Controller_Dropdown.value].device.name.Contains("Nintendo Wireless Gamepad")) { Controller_Device_Name.text = "Nintendo Switch Joycon/Pro"; }
+            if (Gamepad.all[Controller_Dropdown.value].device.name.Contains("Nintendo Wireless Gamepad"))
+            {
+                Controller_Device_Name.text = "Nintendo Switch Joycon/Pro";
+                DualShock_Controller.SetActive(false);
+                XBOX_Controller.SetActive(false);
+            }
         }
         else
         {

@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ControllerTest
     - DualShock
+    - XBOX
     Unity.InputSystem.dll:
     - UIActionInputModuleEnabler
     - UnityEngine.Experimental.Input.Editor.InputActionEditorWindow
@@ -109,6 +110,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11030}
     - Class: 114
       Script: {instanceID: 11132}
+    - Class: 114
+      Script: {instanceID: 18436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -948,7 +951,7 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 8abf573a7f3fb7b54c9a10a820df1b0a
+      Hash: 6f36d8b391ded5f4fa3bd68a776b4ec1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControllerTest
@@ -1138,6 +1141,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f506836f9a6da35b5acebdd34e29140d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XBOX
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
