@@ -26,7 +26,9 @@ Add Xbox / Switch PRO image and will switch image by current select. (ADD)
 #### Update
 ###### 2019.04.28
 Delete junk code
+
 Fix unstable indecator button
+
 Add Xbox controller indecator image
 
 ###### 2019.04.26
