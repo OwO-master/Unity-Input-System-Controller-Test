@@ -1,10 +1,7 @@
 # Controller-Test
-Unity Requirement: 2019.1+
-
-Input System: 0.2.8
-
-by Valxe
-
+Unity Requirement: 2019.1+</br>
+Input System: 0.2.8</br>
+by Valxe</br>
 My website: www.valxe.idv.tw
 
 -----
@@ -25,11 +22,9 @@ Add Xbox / Switch PRO image and will switch image by current select. (ADD)
 -----
 #### Update
 ###### 2019.04.28
-Delete junk code
-
-Fix unstable indecator button
-
-Add Xbox controller indecator image
+Delete junk code</br>
+Fix unstable indecator button</br>
+Add Xbox controller indecator image</br>
 
 ###### 2019.04.26
 Multiple Controller Support
