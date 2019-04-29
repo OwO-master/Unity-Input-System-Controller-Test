@@ -9,7 +9,7 @@ My website: www.valxe.idv.tw
 Unity Standalone: [v0.2](https://github.com/kculwpvalxe/Unity-Input-System-0.2.8-Controller-Test/releases)
 
 -----
-#### Known Issue:Known Issue:
+#### Known Issue
 1. Can't set rumble (tested on DualShock 4)
 2. If connect the controller using Bluetooth, not dongle (ie: DualShock 4 -> CUH-ZWA1G) or USB cable. Input System can't detect whether or not the controller is disconnected by power off.
 3. The "Supported Devices" has some bug. If you add "PS4 Controller (on PS4)" as supported device, Input System will BLOCK the DualShock. (Maybe it must pass through by dongle CUH-ZWA1G?).
