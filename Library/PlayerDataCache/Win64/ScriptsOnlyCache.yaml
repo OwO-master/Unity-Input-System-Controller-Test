@@ -105,13 +105,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10632}
     - Class: 114
-      Script: {instanceID: 10720}
+      Script: {instanceID: 10660}
     - Class: 114
-      Script: {instanceID: 11030}
+      Script: {instanceID: 10722}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 18436}
+      Script: {instanceID: 11134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -963,6 +963,12 @@ ScriptsOnlyBuild:
     className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
+      Hash: f506836f9a6da35b5acebdd34e29140d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XBOX
+  - hash:
+      serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1141,12 +1147,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f506836f9a6da35b5acebdd34e29140d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: XBOX
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

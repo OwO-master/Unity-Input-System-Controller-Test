@@ -19,7 +19,7 @@ public class ControllerTest : MonoBehaviour
     public TextMeshProUGUI Input_System;
     public TextMeshProUGUI Controller_Devices_List;
     public TMP_Dropdown Controller_Dropdown;
-    List<Gamepad> Devices_List = new List<Gamepad>();
+    private List<Gamepad> Connected_Devices_List = new List<Gamepad>();
 
     [Header("Controllers")]
     public GameObject DualShock_Controller;
@@ -125,12 +125,12 @@ public class ControllerTest : MonoBehaviour
         Input_System.text = "Devices.Count: " + InputSystem.devices.Count.ToString() + Environment.NewLine +
                             "DisconnectedDevices.Count: " + InputSystem.disconnectedDevices.Count.ToString();
 
-        Devices_List.RemoveRange(0, Devices_List.Count);
+        Connected_Devices_List.RemoveRange(0, Connected_Devices_List.Count);
         Controller_Dropdown.options.RemoveRange(0, Controller_Dropdown.options.Count);
         Controller_Devices_List.text = "";
         for (int i = 0; i < Gamepad.all.Count; i++)
         {
-            Devices_List.Add(Gamepad.all[i]);
+            Connected_Devices_List.Add(Gamepad.all[i]);
             Controller_Devices_List.text += Gamepad.all[i].id + ": " + Gamepad.all[i].name + Environment.NewLine;
             TMP_Dropdown.OptionData temp = new TMP_Dropdown.OptionData(Gamepad.all[i].id.ToString());
             Controller_Dropdown.options.Add(temp);
