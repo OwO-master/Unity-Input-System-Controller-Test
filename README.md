@@ -2,7 +2,6 @@
 Unity Requirement: 2019.1+</br>
 Input System: 0.2.8</br>
 by Valxe</br>
-My website: www.valxe.idv.tw</br>
 If you have any question or anything want to say, feel free email to kculwp@gmail.com
 
 -----
